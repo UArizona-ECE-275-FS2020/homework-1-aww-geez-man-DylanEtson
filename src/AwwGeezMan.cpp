@@ -78,7 +78,7 @@ int main(int ac, char** av) {
 		}
 	}
 	else {
-		std::cout << "Please enter a valid dimension: valid dimensions are c137 or z286\n";
+		std::cout << "ERROR: unknown dimension!\n";
 		return -1;
 	}
 
