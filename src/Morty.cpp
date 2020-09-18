@@ -17,6 +17,8 @@
 void c137::Morty(int a, int b, int s) {
     int i;
 
+    std::cout << "Morty C137 says: \n";
+
     for (i = a; i <= b; i = i + s) {
 
         std::cout << i << ": ";
@@ -49,6 +51,8 @@ void c137::Morty(int a, int b) {
 
 void z286::Morty(int a, int b, int s) {
     int i;
+
+    std::cout << "Morty Z286 says: \n";
 
     for (i = a; i <= b; i = i + s) {
 
