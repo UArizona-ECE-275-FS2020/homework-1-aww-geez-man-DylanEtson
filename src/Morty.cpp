@@ -17,7 +17,7 @@
 void c137::Morty(int a, int b, int s) {
     int i;
 
-    std::cout << "Morty C137 says: \n";
+    std::cout << "Morty C137 says:\n";
 
     for (i = a; i <= b; i = i + s) {
 

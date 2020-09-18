@@ -59,7 +59,7 @@ int main(int ac, char** av) {
 	// Depending on the dimension of the arguments, call the appropriate Morty
 	// function
 
-	if (dimension == "c137" || dimension == "C127") {
+	if (dimension == "c137" || dimension == "C137") {
 		if (ac == 4) {
 			c137::Morty(start, stop);
 		}
